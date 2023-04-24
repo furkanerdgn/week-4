@@ -20,7 +20,7 @@ function Home() {
       <Nav />
 
       <section className="min-h-[30rem] relative flex items-center justify-center bg-hero-pattern bg-cover bg-[50%] bg-no-repeat z-0">
-        <div className="absolute bottom-0 left-0 right-0 top-0 h-full w-full bg-main overflow-hidden opacity-60 -z-10"></div>
+        <div className="absolute bottom-0 left-0 right-0 top-0 h-full w-full bg-main overflow-hidden opacity-90 -z-10"></div>
         <div className="form-control prose text-center absolute -mt-28   z-10">
           <h1 className="text-base-100 w-full font-semibold ">
             Your personal library, always with you...{" "}
