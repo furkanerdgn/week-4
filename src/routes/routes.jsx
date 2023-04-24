@@ -1,11 +1,11 @@
 import Book from "../pages/Book/index";
-import Error from "../pages/Error";
-import HomeLayout from "../pages/Home/homeLayout";
+import Error from "../pages/error";
+import Home from "../pages/Home/home";
 
 const routes = [
   {
     path: "/",
-    element: <HomeLayout />,
+    element: <Home />,
   },
   {
     path: "/books/:id",

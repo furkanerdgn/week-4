@@ -5,7 +5,7 @@ import { LibraryContext } from "../../context/BooksContext";
 import Results from "../../components/Results";
 import Nav from "../../components/Nav";
 
-function HomeLayout() {
+function Home() {
   const { books, search,status, setSearch,fetchNextPage,setIsSubmit } = useContext(LibraryContext);
 
 
@@ -106,4 +106,4 @@ function HomeLayout() {
   );
 }
 
-export default HomeLayout;
+export default Home;
