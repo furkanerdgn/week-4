@@ -9,8 +9,7 @@ const routes = [
   },
   {
     path: "/books/:id",
-    element:<Book/>
-  
+    element: <Book />,
   },
   {
     path: "*",
